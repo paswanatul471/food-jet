@@ -4,7 +4,7 @@ import food from "../assets/hero-image.jpg"
 function Home() {
   return (
     <>
-        <div className="grid grid-cols-2 bg-[#295846] py-10">
+        <div className="grid grid-cols-2 bg-[#295846] py-10 px-20">
             <div className='my-16'>
                 <h1 className="text-white text-7xl font-bold">
                 The Easiest Way To Make Your Meal

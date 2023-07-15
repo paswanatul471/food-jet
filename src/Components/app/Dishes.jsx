@@ -9,20 +9,24 @@ import img6 from "../assets/noodles.jpg";
 function Dishes() {
   return (
     <>
-      <div>
-        <div className="flex">
-          <p className="order-first">Popular Recipes Of The Week</p>
-          <span className="self-end">
+      <div className="px-20">
+        <div className="my-12">
+          <div className="flex justify-between">
+          <p className="order-first text-4xl font-semibold">Popular Recipes Of The Week</p>
+          <span className="text-green-800 font-semibold text-2xl">
             <a href="#">see more</a>
           </span>
+          </div>
+          
+          <p className="my-3 text-[#888888] text-2xl">Our most popular recipes of this week</p>
         </div>
 
         <div className="">
-          <div className="grid grid-cols-3 space-x-5">
+          <div className="flex flex-row sm:flex-row space-x-5">
             <div className="">
               <img
                 src={img1}
-                className="h-[18rem] rounded-xl hover:h-[19rem] hover:rounded-none"
+                className="h-[18rem] rounded-xl   hover:-translate-y-1 hover:scale-110  duration-300 hover:rounded-none"
                 alt="Please wait"
               />
               <h1 className="text-3xl font-bold">Fried Beans</h1>
@@ -47,8 +51,8 @@ function Dishes() {
               <span className="text-xl">By Luise De</span>
             </div>
           </div>
-          <div className="mx-10">
-            <div className="grid grid-cols-3 space-x-5 py-10">
+          <div className="my-10">
+            <div className="grid grid-cols-3 space-x-5 ">
               <div className="">
                 <img
                   src={img4}
