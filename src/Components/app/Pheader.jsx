@@ -17,42 +17,42 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 
-const products = [
-  {
-    name: "Analytics",
-    description: "Get a better understanding of your traffic",
-    href: "#",
-    icon: ChartPieIcon,
-  },
-  {
-    name: "Engagement",
-    description: "Speak directly to your customers",
-    href: "#",
-    icon: CursorArrowRaysIcon,
-  },
-  {
-    name: "Security",
-    description: "Your customers’ data will be safe and secure",
-    href: "#",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Integrations",
-    description: "Connect with third-party tools",
-    href: "#",
-    icon: SquaresPlusIcon,
-  },
-  {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    href: "#",
-    icon: ArrowPathIcon,
-  },
-];
-const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-];
+// const products = [
+//   {
+//     name: "Analytics",
+//     description: "Get a better understanding of your traffic",
+//     href: "#",
+//     icon: ChartPieIcon,
+//   },
+//   {
+//     name: "Engagement",
+//     description: "Speak directly to your customers",
+//     href: "#",
+//     icon: CursorArrowRaysIcon,
+//   },
+//   {
+//     name: "Security",
+//     description: "Your customers’ data will be safe and secure",
+//     href: "#",
+//     icon: FingerPrintIcon,
+//   },
+//   {
+//     name: "Integrations",
+//     description: "Connect with third-party tools",
+//     href: "#",
+//     icon: SquaresPlusIcon,
+//   },
+//   {
+//     name: "Automations",
+//     description: "Build strategic funnels that will convert",
+//     href: "#",
+//     icon: ArrowPathIcon,
+//   },
+// ];
+// const callsToAction = [
+//   { name: "Watch demo", href: "#", icon: PlayCircleIcon },
+//   { name: "Contact sales", href: "#", icon: PhoneIcon },
+// ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -105,7 +105,7 @@ export default function Example() {
             >
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
-                  {products.map((item) => (
+                  {/* {products.map((item) => (
                     <div
                       key={item.name}
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
@@ -127,10 +127,10 @@ export default function Example() {
                         <p className="mt-1 text-gray-600">{item.description}</p>
                       </div>
                     </div>
-                  ))}
+                  ))} */}
                 </div>
                 <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                  {callsToAction.map((item) => (
+                  {/* {callsToAction.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -142,7 +142,7 @@ export default function Example() {
                       />
                       {item.name}
                     </a>
-                  ))}
+                  ))} */}
                 </div>
               </Popover.Panel>
             </Transition>
