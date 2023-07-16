@@ -9,9 +9,9 @@ import img6 from "../assets/noodles.jpg";
 function Dishes() {
   return (
     <>
-      <div className="px-20 max-sm:px-2 max-md:px-2">
+      <div className="px-20 max-sm:px-2 max-md:px-2 my-10">
         <div className="my-12">
-          <div className="flex justify-between">
+          <div className="flex justify-between ">
             <p className="order-first text-4xl font-semibold">
               Popular Recipes Of The Week
             </p>
@@ -25,97 +25,34 @@ function Dishes() {
           </p>
         </div>
 
-        {/* <div className="">
-          <div className="flex flex-row sm:flex-row space-x-5">
-            <div className="">
-              <img
-                src={img1}
-                className="h-[18rem] rounded-xl   hover:-translate-y-1 hover:scale-110  duration-300 hover:rounded-none"
-                alt="Please wait"
-              />
-              <h1 className="text-3xl font-bold">Fried Beans</h1>
-              <span className="text-xl">By Garry Don</span>
-            </div>
-            <div className="">
-              <img
-                src={img2}
-                className="h-[18rem] rounded-xl hover:h-[18.3rem] hover:rounded-none"
-                alt="Please wait"
-              />
-              <h1 className="text-3xl font-bold">Cheesy Chips</h1>
-              <span className="text-xl">By Charie Laos</span>
-            </div>
-            <div className="">
-              <img
-                src={img3}
-                className="h-[18rem] rounded-xl hover:h-[19rem] hover:rounded-none"
-                alt="Please wait"
-              />
-              <h1 className="text-3xl font-bold">Creamy Pancake</h1>
-              <span className="text-xl">By Luise De</span>
-            </div>
-          </div>
-          <div className="my-10">
-            <div className="grid grid-cols-3 space-x-5 ">
-              <div className="">
-                <img
-                  src={img4}
-                  className="h-[18rem] rounded-xl hover:h-[19rem] hover:rounded-none"
-                  alt="Please wait"
-                />
-                <h1 className="text-3xl font-bold">Coated Onion</h1>
-                <span className="text-xl">By AJ </span>
-              </div>
-              <div className="">
-                <img
-                  src={img5}
-                  className="h-[18rem] rounded-xl hover:h-[19rem] hover:rounded-none"
-                  alt="Please wait"
-                />
-                <h1 className="text-3xl font-bold">Vegan Soup</h1>
-                <span className="text-xl">By Jennifer Lay</span>
-              </div>
-              <div className="">
-                <img
-                  src={img6}
-                  className="h-[18rem] rounded-xl hover:h-[19rem] hover:rounded-none"
-                  alt="Please wait"
-                />
-                <h1 className="text-3xl font-bold">Juicy Noodles</h1>
-                <span className="text-xl">By Smith Jhon</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 font-sans max-sm:text-center max-md:text-center">
           <div>
-            <img src={img1} alt="Please wait" className="w-full" />
-            <h1 className="text-xl font-bold mt-2">Fried Beans</h1>
+            <img src={img1} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
+            <h1 className="text-2xl font-bold mt-2">Fried Beans</h1>
             <span className="text-gray-600">By Garry Don</span>
           </div>
           <div>
-            <img src={img2} alt="Please wait" className="w-full" />
+            <img src={img2} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
             <h1 className="text-xl font-bold mt-2">Cheesy Chips</h1>
             <span className="text-gray-600">By Charie Laos</span>
           </div>
           <div>
-            <img src={img3} alt="Please wait" className="w-full" />
+            <img src={img3} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
             <h1 className="text-xl font-bold mt-2">Creamy Pancake</h1>
             <span className="text-gray-600">By Luise De</span>
           </div>
           <div>
-            <img src={img4} alt="Please wait" className="w-full" />
+            <img src={img4} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
             <h1 className="text-xl font-bold mt-2">Coated Onion</h1>
             <span className="text-gray-600">By AJ</span>
           </div>
           <div>
-            <img src={img5} alt="Please wait" className="w-full" />
+            <img src={img5} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
             <h1 className="text-xl font-bold mt-2">Vegan Soup</h1>
             <span className="text-gray-600">By Jennifer Lay</span>
           </div>
           <div>
-            <img src={img6} alt="Please wait" className="w-full" />
+            <img src={img6} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
             <h1 className="text-xl font-bold mt-2">Juicy Noodles</h1>
             <span className="text-gray-600">By Smith Jhon</span>
           </div>
