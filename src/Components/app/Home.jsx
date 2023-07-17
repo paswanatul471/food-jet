@@ -6,7 +6,7 @@ function Home() {
     <>
       <div className="flex flex-col sm:flex-row bg-[#295846] px-20 py-10 max-sm:px-3 max-md:px-3">
         <div className="order-2 sm:order-1 sm:w-1/2 p-4">
-          <h1 className="text-white text-7xl font-bold max-sm:text-xl max-md-2xl max-lg-text-3xl max-xl:text-7xl max-md:text-center mb-4">
+          <h1 className="text-white text-7xl font-bold max-sm:text-xl max-md-2xl max-lg-text-3xl max-xl:text-7xl max-md:text-center mb-4 font-">
             The Easiest Way To Make Your Meal
           </h1>
           <p className="text-white my-8 max-md:text-center mb-4 text-2xl max-sm:text-xl">
