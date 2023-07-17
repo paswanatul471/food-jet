@@ -4,7 +4,7 @@ import Dishes from './Components/app/Dishes'
 import Recipes from './Components/app/Recipes'
 import Footer from './Components/app/Footer'
 import Pheader from './Components/app/Pheader'
-import Review from './Components/app/Review'
+// import Review from './Components/app/Review'
 
 
 
@@ -14,7 +14,7 @@ function App() {
       <Pheader/>
       <Home/>
       <Dishes/>
-      <Review/>
+      {/* <Review/> */}
       <Recipes/>
       <Footer/>
       
