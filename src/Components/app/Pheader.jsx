@@ -29,14 +29,15 @@ export default function Example() {
   return (
     <header className="bg-[#295846] ">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex max-w-7xl items-center justify-between py-6 font-sans  lg:px-24"
         aria-label="Global "
       >
         <div className="flex lg:flex-1 text-white">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+          <a href="#" className="-m-1.5 p-1.5 flex items-center">
+            
 
             <TbChefHat />
+            <span className="max-sm:hidden ml-2">FooDJeT</span>
           </a>
         </div>
         <div className="flex lg:hidden">
