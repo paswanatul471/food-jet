@@ -1,6 +1,9 @@
 import React from "react";
 import { TbChefHat } from "react-icons/tb";
 import { HiOutlineMailOpen } from "react-icons/hi";
+import { BiLogoFacebook} from "react-icons/bi";
+import { MdFoodBank,MdArticle,MdOutlineManageAccounts} from "react-icons/md";
+import {AiOutlineInstagram,AiOutlineTwitter,AiFillYoutube,AiOutlineHome,AiOutlineShopping} from "react-icons/ai"
 
 function Footer() {
   return (
@@ -41,32 +44,32 @@ function Footer() {
                   <div className="my-10 mr-10">
                     <h2 className="text-2xl text-white my-5">Menu</h2>
                     <div>
-                      <ul className="text-white">
-                        <li className="hover:text-green-400"><a href="/">Home</a></li>
-                        <li className="hover:text-green-400"><a href="/">Recipes</a></li>
-                        <li className="hover:text-green-400"><a href="/">Shopping List</a></li>
-                        <li className="hover:text-green-400"><a href="/">Article</a></li>
-                        <li className="hover:text-green-400"><a href="/">Manage</a></li>
+                      <ul className="text-[#b5b1b1] space-y-2">
+                        <li className="hover:text-green-400"><a href="/" className="flex items-center text-center "><AiOutlineHome className="mr-[2px] text-[1.5rem]"/> Home</a></li>
+                        <li className="hover:text-green-400"><a href="/" className="flex items-center text-center "><MdFoodBank className="mr-[2px] text-[1.5rem]"/>Recipes</a></li>
+                        <li className="hover:text-green-400"><a href="/" className="flex items-center text-center "><AiOutlineShopping className="mr-[2px] text-[1.5rem]"/>Shopping List</a></li>
+                        <li className="hover:text-green-400"><a href="/" className="flex items-center text-center "><MdArticle className="mr-[2px] text-[1.5rem]"/>Article</a></li>
+                        <li className="hover:text-green-400"><a href="/" className="flex items-center text-center "><MdOutlineManageAccounts className="mr-[2px] text-[1.5rem]"/>Manage</a></li>
                       </ul>
                     </div>
                   </div>
                   <div className="m-10">
                     <h2 className="text-2xl text-white my-5">Help</h2>
                     <div>
-                      <ul className="text-white">
-                        <li className="hover:text-green-400"><a href="/">Privacy and Policy</a></li>
-                        <li className="hover:text-green-400"><a href="/">Terms of Use</a></li>
+                      <ul className="text-[#b5b1b1] space-y-2">
+                        <li className="hover:text-green-400"><a href="/" >Privacy and Policy</a></li>
+                        <li className="hover:text-green-400"><a href="/" >Terms of Use</a></li>
                       </ul>
                     </div>
                   </div>
                   <div className="m-10">
                     <h2 className="text-2xl text-white my-5">Social</h2>
                     <div>
-                      <ul className="text-white">
-                        <li className="hover:text-green-400"><a href="/">Instagram</a></li>
-                        <li className="hover:text-green-400"><a href="/">Twitter</a></li>
-                        <li className="hover:text-green-400"><a href="/">Facebook</a></li>
-                        <li className="hover:text-green-400"><a href="/">YouTube</a></li>
+                      <ul className="text-[#b5b1b1] space-y-2">
+                        <li className="hover:text-green-400 "><a href="/" className="flex items-center text-center "><AiOutlineInstagram className="mr-[2px] text-[1.5rem]"/>Instagram</a></li>
+                        <li className="hover:text-green-400"><a href="/" className="flex items-center text-center "><AiOutlineTwitter className="mr-[2px] text-[1.5rem]"/>Twitter</a></li>
+                        <li className="hover:text-green-400"><a href="/"className="flex items-center text-center "><BiLogoFacebook className="mr-[2px] text-[1.5rem]"/>Facebook</a></li>
+                        <li className="hover:text-green-400"><a href="/"className="flex items-center text-center "><AiFillYoutube className="mr-[2px] text-[1.5rem]"/>YouTube</a></li>
                       </ul>
                     </div>
                   </div>
