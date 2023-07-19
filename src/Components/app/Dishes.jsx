@@ -26,33 +26,33 @@ function Dishes() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 font-sans max-sm:text-center max-md:text-center">
-          <div>
-            <img src={img1} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
+          <div className="overflow-hidden">
+            <img src={img1} alt="Please wait" className="w-[90%] transition ease-in-out delay-150 max-sm:w-full max-md:w-full h-80 rounded-xl hover:scale-110 hover:-translate-y-1 " />
             <h1 className="text-2xl font-bold mt-2">Fried Beans</h1>
             <span className="text-gray-600">By Garry Don</span>
           </div>
-          <div>
-            <img src={img2} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
+          <div  className="overflow-hidden">
+            <img src={img2} alt="Please wait" className="w-[90%] transition ease-in-out delay-150 max-sm:w-full max-md:w-full h-80 rounded-xl hover:scale-110 hover:-translate-y-1 " />
             <h1 className="text-xl font-bold mt-2">Cheesy Chips</h1>
             <span className="text-gray-600">By Charie Laos</span>
           </div>
-          <div>
-            <img src={img3} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
+          <div  className="overflow-hidden">
+            <img src={img3} alt="Please wait" className="w-[90%] transition ease-in-out delay-150 max-sm:w-full max-md:w-full h-80 rounded-xl hover:scale-110 hover:-translate-y-1 " />
             <h1 className="text-xl font-bold mt-2">Creamy Pancake</h1>
             <span className="text-gray-600">By Luise De</span>
           </div>
-          <div>
-            <img src={img4} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
+          <div  className="overflow-hidden">
+            <img src={img4} alt="Please wait" className="w-[90%] transition ease-in-out delay-150 max-sm:w-full max-md:w-full h-80 rounded-xl hover:scale-110 hover:-translate-y-1 " />
             <h1 className="text-xl font-bold mt-2">Coated Onion</h1>
             <span className="text-gray-600">By AJ</span>
           </div>
-          <div>
-            <img src={img5} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
+          <div  className="overflow-hidden">
+            <img src={img5} alt="Please wait" className="w-[90%] transition ease-in-out delay-150 max-sm:w-full max-md:w-full h-80 rounded-xl hover:scale-110 hover:-translate-y-1 " />
             <h1 className="text-xl font-bold mt-2">Vegan Soup</h1>
             <span className="text-gray-600">By Jennifer Lay</span>
           </div>
-          <div>
-            <img src={img6} alt="Please wait" className="w-[90%] max-sm:w-full max-md:w-full h-80 rounded-xl" />
+          <div  className="overflow-hidden">
+            <img src={img6} alt="Please wait" className="w-[90%] transition ease-in-out delay-150 max-sm:w-full max-md:w-full h-80 rounded-xl hover:scale-110 hover:-translate-y-1 " />
             <h1 className="text-xl font-bold mt-2">Juicy Noodles</h1>
             <span className="text-gray-600">By Smith Jhon</span>
           </div>
